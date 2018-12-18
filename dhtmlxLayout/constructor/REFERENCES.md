@@ -1,0 +1,1 @@
+- [Initializing Layout on a Page DHTMLX Docs](https://docs.dhtmlx.com/layout__init.html#constructor)
