@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<menu>
+  <item id="file" text="Файл">
+    <item id="new" text="Новый" img="New-Folder-icon-16.png" imgdis="New-Folder-white-icon-16.png">
+      <hotkey>Ctrl+N</hotkey>
+    </item>
+    <item id="sep" type="separator"/>
+    <item id="exit" text="Выход">
+      <userdata name="return">zero</userdata>
+    </item>
+  </item>
+  <item id="mode" text="Режим">
+    <item id="read" text="Чтение" type="radio" group="mode_group" />
+    <item id="write" text="Запись" type="radio" group="mode_group" checked="true" />
+  </item>
+  <item id="view" text="Вид">
+    <item id="soft-wrap" text="Перенос строки" type="checkbox" checked="true" />
+    <item id="fullscreen" text="Полноэкранный режим" enabled="false" img="system-monitor-icon-24.png" imgdis="system-monitor-off-icon-24.png" />
+  </item>
+  <item id="help" text="Справка">
+    <item id="about" text="О программе">
+      <href target="blank"><![CDATA[https://github.com/gusenov/examples-dhtmlx-suite-ui/blob/master/dhtmlxMenu/load-from-xml/menu.xml]]></href>
+    </item>
+  </item>
+</menu>
