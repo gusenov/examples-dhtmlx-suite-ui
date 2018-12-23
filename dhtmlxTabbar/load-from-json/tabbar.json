@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "align": "right",
+    "arrows_mode": "always",
+    "close_button": false
+  },
+  "tabs": [
+    {
+      "id": "a1",
+      "text": "Tab 1",
+      "active": true
+    },
+    {
+      "id": "a2",
+      "text": "Tab 2"
+    },
+    {
+      "id": "a3",
+      "text": "Tab 3",
+      "close": true,
+      "enabled": false
+    },
+    {
+      "id": "a4",
+      "text": "Tab 4",
+      "close": true
+    },
+    {
+      "id": "a5",
+      "text": "Tab 5",
+      "close": true
+    }
+  ]
+}
